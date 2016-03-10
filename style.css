@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Dosis;
+    src: url(https://fonts.googleapis.com/css?family=Dosis:300,500,700);
+}
+
 .main-content{
     /* background-color: #FF0000; */
     height:60px;
@@ -9,5 +14,47 @@
 }
 
 h3 {
-    font-family: -apple-system, Helvetica, Arial, sans-serif;
+    font-family: Dosis, sans-serif;
+}
+
+.github {
+    color: #000;
+    opacity: 0.5;
+}
+
+.github:hover {
+    transform: scale(1.5, 1.5);
+    opacity: 1;
+}
+
+.codepen {
+    color: #000;
+    opacity: 0.5;
+}
+
+.codepen:hover {
+    transform: scale(1.5, 1.5);
+    opacity: 1;
+}
+
+.linkedin {
+    color: #3184bc;
+    opacity: 0.5;
+}
+
+.linkedin:hover {
+    transform: scale(1.5, 1.5);
+    opacity: 1;
+}
+
+.social-media {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.social-media li {
+    display: inline;
+    padding: 20px;
 }
