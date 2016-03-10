@@ -13,8 +13,14 @@
     height:60px;
 }
 
-h3 {
+h2 {
+    letter-spacing: 3px;
+}
+
+.red-text {
     font-family: Dosis, sans-serif;
+    font-weight: 300;
+    color: #cc6666;
 }
 
 .github {
