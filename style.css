@@ -1,13 +1,12 @@
 .main-content{
-    background-color: #FF0000;
+    /* background-color: #FF0000; */
     height:60px;
 }
 
 .side-content {
-    background-color: #00FF00;
+    /* background-color: #00FF00; */
     height:60px;
 }
-
 
 h3 {
     font-family: -apple-system, Helvetica, Arial, sans-serif;
