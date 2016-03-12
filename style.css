@@ -4,13 +4,8 @@
 }
 
 .main-content{
-    /* background-color: #FF0000; */
-    height:60px;
-}
-
-.side-content {
-    /* background-color: #00FF00; */
-    height:60px;
+    margin: 0;
+    padding: 0;
 }
 
 h2 {
@@ -19,48 +14,69 @@ h2 {
 
 .red-text {
     font-family: Dosis, sans-serif;
-    font-weight: 300;
-    color: #cc6666;
-}
-
-.github {
+    font-size: 5em;
+    font-weight: 700;
+    /* color: #cc6666; */
     color: #000;
-    opacity: 0.5;
-}
-
-.github:hover {
-    transform: scale(1.5, 1.5);
-    opacity: 1;
-}
-
-.codepen {
-    color: #000;
-    opacity: 0.5;
-}
-
-.codepen:hover {
-    transform: scale(1.5, 1.5);
-    opacity: 1;
-}
-
-.linkedin {
-    color: #3184bc;
-    opacity: 0.5;
-}
-
-.linkedin:hover {
-    transform: scale(1.5, 1.5);
-    opacity: 1;
 }
 
 .social-media {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
 .social-media li {
     display: inline;
     padding: 20px;
+}
+
+.social-media-icon {
+    opacity: 0.8;
+    color: #000;
+}
+
+.social-media-icon:hover {
+    transform: scale(1.5, 1.5);
+    opacity: 1;
+}
+
+.linkedin {
+    color: #3184bc;
+}
+
+.introduction {
+
+    background-image: url('http://666a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_527bf56961712_1.JPG');
+
+    background-size: cover;
+
+    height: 100vh;
+
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-direction: column;
+    flex-direction: column;
+
+    -webkit-justify-content: center;
+    justify-content: center;
+
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.about {
+    width: 100%;
+}
+
+p {
+    border: 15px dashed red;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav {
+    display: none;
 }
