@@ -45,7 +45,7 @@ h2 {
     color: #3184bc;
 }
 
-.introduction {
+#introduction {
 
     background-image: url('http://666a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_527bf56961712_1.JPG');
 
@@ -79,4 +79,17 @@ p {
 
 .nav {
     display: none;
+    background-color: gray;
+    width: 100vw;
+
+
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-direction: row;
+    flex-direction: row;
+
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
 }
+
