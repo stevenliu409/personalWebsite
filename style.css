@@ -77,11 +77,15 @@ p {
     text-align: center;
 }
 
-.nav {
-    display: none;
-    background-color: gray;
-    width: 100vw;
+.navbar {
+}
 
+
+.nav {
+    background-color: gray;
+
+
+    width: 100vw;
 
     display: -webkit-flex;
     display: flex;

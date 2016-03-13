@@ -1,10 +1,10 @@
 $(document).ready(function() {
     $(window).scroll(function() {
         if($(this).scrollTop() > 100 ) {
-            $(".nav").show();
+            $(".navbar").show();
             $(".nav").css("position","fixed");
         } else {
-            $(".nav").hide();
+            $(".navbar").hide();
         }
     });
 });
