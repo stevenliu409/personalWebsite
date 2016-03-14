@@ -1,6 +1,8 @@
 @font-face {
-    font-family: Dosis;
-    src: url(https://fonts.googleapis.com/css?family=Dosis:300,500,700);
+    /* font-family: Dosis; */
+    /* src: url(https://fonts.googleapis.com/css?family=Dosis:300,500,700); */
+    font-family: Roboto;
+    src: url(https://fonts.googleapis.com/css?family=Roboto+Mono);
 }
 
 .main-content{
@@ -13,9 +15,9 @@ h2 {
 }
 
 .red-text {
-    font-family: Dosis, sans-serif;
-    font-size: 5em;
-    font-weight: 700;
+    font-family: Roboto, sans-serif;
+    /* font-size: 5em; */
+    /* font-weight: 700; */
     /* color: #cc6666; */
     color: #000;
 }
