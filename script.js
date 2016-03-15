@@ -1,8 +1,10 @@
 $(document).ready(function() {
+    $(".navbar").hide();
+
     $(window).scroll(function() {
         if($(this).scrollTop() > 100 ) {
-            $(".navbar").show();
-            $(".nav").css("position","fixed");
+            $(".navbar").fadeIn();
+            $(".navbar").css("position","fixed");
         } else {
             $(".navbar").hide();
         }
