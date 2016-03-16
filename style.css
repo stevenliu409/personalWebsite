@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100);
 
 .intro-header-text {
     font-family: Monospace, sans-serif;
@@ -123,6 +124,20 @@ p {
 }
 
 .about-icon {
+    font-size: 16em !important;
+}
+.about-icon-developer {
+    font-size: 9em !important;
+}
 
+.about-p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.7em;
+    font-weight: 100;
+}
 
+.about-header {
+    text-align: center;
+    font-family: Monospace;
 }
