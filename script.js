@@ -1,12 +1,11 @@
 $(document).ready(function() {
-    $(".navbar").hide();
+    // $(".navbar").hide();
 
-    $(window).scroll(function() {
-        if($(this).scrollTop() > 100 ) {
-            $(".navbar").fadeIn();
-            $(".navbar").css("position","fixed");
-        } else {
-            $(".navbar").hide();
-        }
-    });
+    // $(window).scroll(function() {
+    //     if($(this).scrollTop() > 100 ) {
+    //         $(".navbar").fadeIn();
+    //     } else {
+    //         $(".navbar").hide();
+    //     }
+    // });
 });

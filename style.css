@@ -1,24 +1,16 @@
+
 @font-face {
     /* font-family: Dosis; */
     /* src: url(https://fonts.googleapis.com/css?family=Dosis:300,500,700); */
-    font-family: Roboto;
-    src: url(https://fonts.googleapis.com/css?family=Roboto+Mono);
-}
-
-.main-content{
-    margin: 0;
-    padding: 0;
-}
-
-h2 {
-    letter-spacing: 3px;
+    font-family: 'Roboto Mono';
+    src: url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700);
 }
 
 .red-text {
-    font-family: Roboto, sans-serif;
-    /* font-size: 5em; */
-    /* font-weight: 700; */
-    /* color: #cc6666; */
+    font-family: 'Roboto Mono', sans-serif;
+    letter-spacing: 5px;
+    font-size: 5em;
+    font-weight: 400;
     color: #000;
 }
 
@@ -50,10 +42,13 @@ h2 {
 #introduction {
 
     background-image: url('http://666a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_527bf56961712_1.JPG');
-
     background-size: cover;
-
     height: 100vh;
+}
+
+.intro-content {
+
+    height: 95vh;
 
     display: -webkit-flex;
     display: flex;
@@ -69,6 +64,7 @@ h2 {
 }
 
 #about {
+
     display: -webkit-flex;
     display: flex;
 
@@ -89,10 +85,8 @@ p {
     text-align: center;
 }
 
-.nav {
-    background-color: gray;
 
-    width: 100vw;
+.nav {
 
     display: -webkit-flex;
     display: flex;
@@ -104,3 +98,10 @@ p {
     justify-content: flex-end;
 }
 
+.blue li a {
+    color: white;
+}
+
+.blue li a:hover {
+    background-color: blue;
+}
