@@ -1,12 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700);
 
-@font-face {
-    /* font-family: Dosis; */
-    /* src: url(https://fonts.googleapis.com/css?family=Dosis:300,500,700); */
-    font-family: 'Roboto Mono';
-    src: url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700);
-}
-
-.red-text {
+.header-text {
     font-family: 'Roboto Mono', sans-serif;
     letter-spacing: 5px;
     font-size: 5em;
@@ -79,7 +73,6 @@
 }
 
 p {
-    border: 15px dashed red;
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
@@ -98,10 +91,17 @@ p {
     justify-content: flex-end;
 }
 
-.blue li a {
-    color: white;
+.nav-link-text li {
+    margin: 15px;
 }
 
-.blue li a:hover {
-    background-color: blue;
+.nav-link-text li a {
+    color: white;
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 14px;
+}
+
+.nav-link-text li a:hover {
+    background-color: transparent !important;
+    transform: scale(1.5, 1.5);
 }
