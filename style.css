@@ -11,8 +11,7 @@
 .social-media {
     list-style-type: none;
     margin: 0;
-    padding: 30px;
-    border: 10px white solid;
+    padding: 0;
 }
 
 .social-media li {
@@ -21,8 +20,8 @@
 }
 
 .social-media-icon {
-    opacity: 0.8;
-    color: #000;
+    color: #FFF;
+    padding: 5px 10px;
 }
 
 .social-media-icon:hover {
@@ -30,13 +29,9 @@
     opacity: 1;
 }
 
-.linkedin {
-    color: #3184bc;
-}
-
 #introduction {
 
-    background-image: url('http://i.imgur.com/EkmkJJx.jpg');
+    background-color: black;
     background-size: cover;
     height: 100vh;
 }

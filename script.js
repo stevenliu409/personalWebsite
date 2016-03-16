@@ -1,11 +1,6 @@
 $(document).ready(function() {
-    // $(".navbar").hide();
 
-    // $(window).scroll(function() {
-    //     if($(this).scrollTop() > 100 ) {
-    //         $(".navbar").fadeIn();
-    //     } else {
-    //         $(".navbar").hide();
-    //     }
-    // });
+    (function blink(){
+        $(".intro-header-text-cursor").fadeOut(500).fadeIn(500, blink);
+    })();
 });
