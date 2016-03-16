@@ -1,17 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700);
 
-.header-text {
-    font-family: 'Roboto Mono', sans-serif;
+.intro-header-text {
+    font-family: Monospace, sans-serif;
     letter-spacing: 5px;
     font-size: 5em;
     font-weight: 400;
-    color: #000;
+    color: #fff;
 }
 
 .social-media {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 30px;
+    border: 10px white solid;
 }
 
 .social-media li {
@@ -35,7 +36,7 @@
 
 #introduction {
 
-    background-image: url('http://666a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_527bf56961712_1.JPG');
+    background-image: url('http://i.imgur.com/EkmkJJx.jpg');
     background-size: cover;
     height: 100vh;
 }
