@@ -102,3 +102,27 @@ p {
     background-color: transparent !important;
     transform: scale(1.5, 1.5);
 }
+
+
+
+
+
+/***********    About Section    ************/
+
+#about-me {
+    border: red 5px solid;
+}
+
+#about-developer {
+    border: yellow 5px solid;
+}
+
+
+#about-passion {
+    border: blue 5px solid;
+}
+
+.about-icon {
+
+
+}
