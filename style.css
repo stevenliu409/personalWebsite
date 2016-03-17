@@ -55,27 +55,6 @@
     align-items: center;
 }
 
-#about {
-
-    display: -webkit-flex;
-    display: flex;
-
-    -webkit-flex-direction: column;
-    flex-direction: column;
-
-    -webkit-align-items: center;
-    align-items: center;
-
-    -webkit-justify-content: center;
-    justify-content: center;
-}
-
-p {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: center;
-}
-
 
 .nav {
 
@@ -110,22 +89,10 @@ p {
 
 /***********    About Section    ************/
 
-#about-me {
-    /* border: red 5px solid; */
+
+.about-center-align {
     text-align: center;
 }
-
-#about-developer {
-    /* border: yellow 5px solid; */
-    text-align: center;
-}
-
-
-#about-passion {
-    /* border: blue 5px solid; */
-    text-align: center;
-}
-
 .about-icon {
     font-size: 16em !important;
     margin-bottom: 20px;
@@ -133,14 +100,14 @@ p {
 }
 
 .about-icon-developer {
-    font-size: 9em !important;
+    font-size: 8em !important;
     margin-bottom: 20px;
     color: black;
 }
 
 .about-p {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.3em;
+    font-size: 1.5em;
     line-height: 1.7em;
     font-weight: 100;
 
@@ -151,3 +118,13 @@ p {
     text-align: center;
     font-family: Monospace;
 }
+
+
+
+/************* Portfolio **********/
+
+#portfolio {
+    background-color: #e5eaee;
+    height: 50vh;
+}
+
