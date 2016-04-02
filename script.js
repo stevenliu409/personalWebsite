@@ -6,4 +6,7 @@ $(document).ready(function() {
 
     $('#copyright').text(new Date().getFullYear());
 
+    $('#contactform').attr('action', 'https://formspree.io/' + 'info' + '@' + 'stevenliu' + '.' + 'xyz');
+
+
 });

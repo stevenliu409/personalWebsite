@@ -130,17 +130,26 @@
 /************* Portfolio **********/
 
 #portfolio {
-    /* background-color: #e5eaee; */
-    /* background-color: rgb(0,104,67); */
-
     background-color: rgb(169,0,39);
+    opacity: 0.9;
     color: white;
     height: 50vh;
-
     text-align: center;
-
     padding-top: 20px;
+}
 
+
+/************ Contact ************/
+#contact {
+    text-align: center;
+}
+#contact input {
+    display:block;
+    margin-bottom: 20px;
+}
+
+#contact textarea {
+    display:block;
 }
 
 
