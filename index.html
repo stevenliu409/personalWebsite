@@ -34,7 +34,7 @@
             <!-- About me section -->
             <div class="row">
                 <div id="about">
-                    <h2 class="about-header text-font">&lt;!------ About Me ------&gt;</h2>
+                    <h2 class="about-header text-font"> About Me </h2>
                     <div id="about-me" class="col-md-4 col-xs-12 about-center-align">
                         <i class="fa fa-user about-icon"></i>
                         <p class="about-p">I am an aspiring self-taught mobile and web developer. I have a background in computer science and a graduate from the University of British Columbia</p>
@@ -57,17 +57,16 @@
             </div> <!-- Close row -->
 
             <div class="row">
-                <div id="portfolio" class="text-font">
-                    <h2>&lt;!------ Portfolio ------&gt;</h2>
+                <div id="portfolio" >
+                    <h2 class="text-font"> Portfolio </h2>
                 </div><!-- Close Portfolio section -->
             </div> <!-- Close row -->
 
             <div class="row">
-                <div id="contact">
-                    <h2>Contact</h2>
+                <div id="contact" class="text-font">
+                    <h2 >Contact Me</h2>
                     <form id="contactform"
                         method="POST">
-
                             <span>
                                 <label for="contact-name">Name</label>
                                 <input type="text" name="name" id="contact-name">
@@ -83,10 +82,10 @@
                         <input type="text" name="_gotcha" style="display:none" />
 
                         <span>
-                            <textarea name="message" ></textarea>
+                            <label for="contact-message">Message</label>
+                            <textarea name="message" id="contact-message" ></textarea>
                             <input type="submit" value="Send" class="btn btn" id="contact-submit">
                         </span>
-
                     </form>
                 </div> <!-- Close contact section -->
             </div> <!-- Close Row section -->
