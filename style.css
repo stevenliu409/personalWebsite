@@ -143,15 +143,38 @@
 #contact {
     text-align: center;
 }
-#contact input {
-    display:block;
-    margin-bottom: 20px;
+
+
+
+#contact span {
+    display: inline-block;
+    margin-left: 20px;
 }
 
-#contact textarea {
-    display:block;
+#contact span label {
+    display: block;
+    text-align: left;
 }
 
+#contact span input {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 500px;
+    height: 40px;
+    font-size: 14pt;
+}
+#contact span textarea {
+    display:block;
+    margin: 0 auto 20px;
+    font-size: 14pt;
+
+    width: 450px;
+    height: 200px;
+}
+
+#contact-submit {
+    float: right;
+}
 
 /************ Footer ************/
 

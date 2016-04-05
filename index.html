@@ -67,16 +67,29 @@
                     <h2>Contact</h2>
                     <form id="contactform"
                         method="POST">
-                        <label> name</label>
-                        <input type="text" name="name">
-                        <label> email</label>
-                        <input type="email" name="_replyto">
-                        <textarea name="message" ></textarea>
+
+                            <span>
+                                <label for="contact-name">Name</label>
+                                <input type="text" name="name" id="contact-name">
+                            </span>
+
+                            <span>
+                                <label for="contact-email">E-mail</label>
+                                <input type="email" name="_replyto" id="contact-email">
+                            </span>
+
+                            <br>
+
                         <input type="text" name="_gotcha" style="display:none" />
-                        <input type="submit" value="Send">
+
+                        <span>
+                            <textarea name="message" ></textarea>
+                            <input type="submit" value="Send" class="btn btn" id="contact-submit">
+                        </span>
+
                     </form>
-                </div>
-            </div>
+                </div> <!-- Close contact section -->
+            </div> <!-- Close Row section -->
 
             <div class="row">
                 <div id="footer" class="text-font">
