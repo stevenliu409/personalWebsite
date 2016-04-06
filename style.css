@@ -144,36 +144,37 @@
     text-align: center;
 }
 
-
-
 #contact span {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 
 #contact span label {
     display: block;
     text-align: left;
+    font-size: 12pt;
 }
 
-#contact span input {
+#contact div span input {
     display: block;
-    margin: 0 auto 20px;
-    max-width: 500px;
+    margin: 0 auto;
     height: 40px;
-    font-size: 14pt;
+    font-size: 12pt;
+    width: 180px;
 }
+
 #contact span textarea {
     display:block;
     margin: 0 auto 20px;
-    font-size: 14pt;
+    font-size: 12pt;
 
-    width: 530px;
+    width: 380px;
     height: 200px;
 }
 
 #contact-submit {
     float: right;
+    margin-bottom: 20px;
 }
 
 /************ Footer ************/
