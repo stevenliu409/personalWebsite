@@ -161,6 +161,7 @@
     height: 40px;
     font-size: 12pt;
     width: 180px;
+    padding: 10px;
 }
 
 #contact span textarea {
@@ -170,6 +171,7 @@
 
     width: 380px;
     height: 200px;
+    padding: 10px;
 }
 
 #contact-submit {
