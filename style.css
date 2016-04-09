@@ -138,7 +138,23 @@
     padding-top: 20px;
 }
 
+.portfolio-wrapper {
+    font-size: 0;
+}
 
+.portfolio-wrapper a img {
+
+    max-width: 200px;
+    max-height: 100px;
+
+    margin-top: 40px;
+}
+
+
+.portfolio-wrapper a img:hover {
+
+    transform: scale(1.5, 1.5);
+}
 /************ Contact ************/
 #contact {
     text-align: center;
